@@ -1079,7 +1079,7 @@ export class BusinessStartupService extends ChannelStartupService {
     const prepareMedia: any = {
       fileName: `${hash}.mp3`,
       mediaType: 'audio',
-      media: audio,
+      audio: audio,
     };
 
     if (isURL(audio)) {
